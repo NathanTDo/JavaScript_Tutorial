@@ -35,7 +35,6 @@ let age = 30;
 age =  31;
 
 const birthYear = 1991;
-*/
 
 const markMass = 78;
 const markHeight = 1.69;
@@ -53,3 +52,24 @@ else {
 }
 
 console.log(markHigherBMI);
+*/
+
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const jonas = "I'm " + firstName + ', a ' + (year - birthYear) +
+" year old " + job + '! ';
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(jonasNew);
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+console.log(`String 
+multiple
+lines`);
